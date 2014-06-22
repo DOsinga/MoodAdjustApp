@@ -11,12 +11,6 @@
 		4C1C84561681F010003EE085 /* PHLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1C84541681F010003EE085 /* PHLoadingViewController.xib */; };
 		4CCACF97165692D4008E9D69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCACF96165692D4008E9D69 /* UIKit.framework */; };
 		4CCACF99165692D4008E9D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCACF98165692D4008E9D69 /* Foundation.framework */; };
-		4CCACFA1165692D5008E9D69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACF9F165692D5008E9D69 /* InfoPlist.strings */; };
-		4CCACFA3165692D5008E9D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACFA2165692D5008E9D69 /* main.m */; };
-		4CCACFA7165692D5008E9D69 /* MoodAdjustAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACFA6165692D5008E9D69 /* MoodAdjustAppDelegate.m */; };
-		4CCACFA9165692D5008E9D69 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACFA8165692D5008E9D69 /* Default.png */; };
-		4CCACFAB165692D5008E9D69 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACFAA165692D5008E9D69 /* Default@2x.png */; };
-		4CCACFAD165692D5008E9D69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACFAC165692D5008E9D69 /* Default-568h@2x.png */; };
 		4CCACFD9165693F4008E9D69 /* PHBridgePushLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACFCF165693F4008E9D69 /* PHBridgePushLinkViewController.m */; };
 		4CCACFDA165693F4008E9D69 /* PHBridgePushLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACFD0165693F4008E9D69 /* PHBridgePushLinkViewController.xib */; };
 		4CCACFDB165693F4008E9D69 /* PHBridgeSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACFD2165693F4008E9D69 /* PHBridgeSelectionViewController.m */; };
@@ -26,6 +20,15 @@
 		87194E79184F7FA700576916 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87194E78184F7FA700576916 /* CoreGraphics.framework */; };
 		87AAAC50184F77FF0054CBB8 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71523D818337F690033689C /* HueSDK_iOS.framework */; };
 		CC8C56A8194C7A6F005282EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8C56A7194C7A6F005282EB /* AVFoundation.framework */; };
+		CCC5563F1957028300FC2DCC /* MoodAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC556311957028300FC2DCC /* MoodAdjustViewController.m */; };
+		CCC556401957028300FC2DCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC556321957028300FC2DCC /* main.m */; };
+		CCC556411957028300FC2DCC /* MoodAdjustAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC556341957028300FC2DCC /* MoodAdjustAppDelegate.m */; };
+		CCC556421957028300FC2DCC /* MoodAdjustViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC556361957028300FC2DCC /* MoodAdjustViewController.xib */; };
+		CCC556431957028300FC2DCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC556371957028300FC2DCC /* Default-568h@2x.png */; };
+		CCC556441957028300FC2DCC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC556381957028300FC2DCC /* Default.png */; };
+		CCC556451957028300FC2DCC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC556391957028300FC2DCC /* Default@2x.png */; };
+		CCC556461957028300FC2DCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC5563B1957028300FC2DCC /* InfoPlist.strings */; };
+		CCC556471957028300FC2DCC /* MoodAdjustApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC5563D1957028300FC2DCC /* MoodAdjustApp-Info.plist */; };
 		F715240118337FD50033689C /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F71523F318337FD50033689C /* DDAbstractDatabaseLogger.m */; };
 		F715240218337FD50033689C /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F71523F518337FD50033689C /* DDASLLogger.m */; };
 		F715240318337FD50033689C /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F71523F718337FD50033689C /* DDFileLogger.m */; };
@@ -33,8 +36,6 @@
 		F715240518337FD50033689C /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F71523FB18337FD50033689C /* DDTTYLogger.m */; };
 		F715240618337FD50033689C /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F71523FE18337FD50033689C /* ContextFilterLogFormatter.m */; };
 		F715240718337FD50033689C /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F715240018337FD50033689C /* DispatchQueueLogFormatter.m */; };
-		F7ADC2A017FDAAA70038A1D6 /* MoodAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADC29E17FDAAA70038A1D6 /* MoodAdjustViewController.m */; };
-		F7ADC2A117FDAAA70038A1D6 /* MoodAdjustViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7ADC29F17FDAAA70038A1D6 /* MoodAdjustViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,15 +45,6 @@
 		4CCACF92165692D4008E9D69 /* MoodAdjustApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodAdjustApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCACF96165692D4008E9D69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CCACF98165692D4008E9D69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4CCACF9E165692D4008E9D69 /* MoodAdjustApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoodAdjustApp-Info.plist"; sourceTree = "<group>"; };
-		4CCACFA0165692D5008E9D69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4CCACFA2165692D5008E9D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CCACFA4165692D5008E9D69 /* MoodAdjustApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoodAdjustApp-Prefix.pch"; sourceTree = "<group>"; };
-		4CCACFA5165692D5008E9D69 /* MoodAdjustAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoodAdjustAppDelegate.h; sourceTree = "<group>"; };
-		4CCACFA6165692D5008E9D69 /* MoodAdjustAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodAdjustAppDelegate.m; sourceTree = "<group>"; };
-		4CCACFA8165692D5008E9D69 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4CCACFAA165692D5008E9D69 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4CCACFAC165692D5008E9D69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4CCACFCE165693F4008E9D69 /* PHBridgePushLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHBridgePushLinkViewController.h; sourceTree = "<group>"; };
 		4CCACFCF165693F4008E9D69 /* PHBridgePushLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHBridgePushLinkViewController.m; sourceTree = "<group>"; };
 		4CCACFD0165693F4008E9D69 /* PHBridgePushLinkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PHBridgePushLinkViewController.xib; sourceTree = "<group>"; };
@@ -63,6 +55,18 @@
 		4CCACFD6165693F4008E9D69 /* press_smartbridge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "press_smartbridge@2x.png"; sourceTree = "<group>"; };
 		87194E78184F7FA700576916 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CC8C56A7194C7A6F005282EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CCC556311957028300FC2DCC /* MoodAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodAdjustViewController.m; sourceTree = "<group>"; };
+		CCC556321957028300FC2DCC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC556331957028300FC2DCC /* MoodAdjustAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodAdjustAppDelegate.h; sourceTree = "<group>"; };
+		CCC556341957028300FC2DCC /* MoodAdjustAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodAdjustAppDelegate.m; sourceTree = "<group>"; };
+		CCC556351957028300FC2DCC /* MoodAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodAdjustViewController.h; sourceTree = "<group>"; };
+		CCC556361957028300FC2DCC /* MoodAdjustViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodAdjustViewController.xib; sourceTree = "<group>"; };
+		CCC556371957028300FC2DCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCC556381957028300FC2DCC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCC556391957028300FC2DCC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCC5563C1957028300FC2DCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CCC5563D1957028300FC2DCC /* MoodAdjustApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MoodAdjustApp-Info.plist"; sourceTree = "<group>"; };
+		CCC5563E1957028300FC2DCC /* MoodAdjustApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MoodAdjustApp-Prefix.pch"; sourceTree = "<group>"; };
 		F71523D818337F690033689C /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HueSDK_iOS.framework; path = ../HueSDK_iOS.framework; sourceTree = "<group>"; };
 		F71523F218337FD50033689C /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		F71523F318337FD50033689C /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
@@ -78,9 +82,6 @@
 		F71523FE18337FD50033689C /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		F71523FF18337FD50033689C /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		F715240018337FD50033689C /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		F7ADC29D17FDAAA70038A1D6 /* MoodAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodAdjustViewController.h; sourceTree = "<group>"; };
-		F7ADC29E17FDAAA70038A1D6 /* MoodAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodAdjustViewController.m; sourceTree = "<group>"; };
-		F7ADC29F17FDAAA70038A1D6 /* MoodAdjustViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodAdjustViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +113,19 @@
 		4CCACF87165692D4008E9D69 = {
 			isa = PBXGroup;
 			children = (
+				CCC556311957028300FC2DCC /* MoodAdjustViewController.m */,
+				CCC556321957028300FC2DCC /* main.m */,
+				CCC556331957028300FC2DCC /* MoodAdjustAppDelegate.h */,
+				CCC556341957028300FC2DCC /* MoodAdjustAppDelegate.m */,
+				CCC556351957028300FC2DCC /* MoodAdjustViewController.h */,
+				CCC556361957028300FC2DCC /* MoodAdjustViewController.xib */,
+				CCC556371957028300FC2DCC /* Default-568h@2x.png */,
+				CCC556381957028300FC2DCC /* Default.png */,
+				CCC556391957028300FC2DCC /* Default@2x.png */,
+				CCC5563A1957028300FC2DCC /* en.lproj */,
+				CCC5563D1957028300FC2DCC /* MoodAdjustApp-Info.plist */,
+				CCC5563E1957028300FC2DCC /* MoodAdjustApp-Prefix.pch */,
 				4CCACFCA165693F4008E9D69 /* SDKWizard */,
-				4CCACF9C165692D4008E9D69 /* HueQuickStartApp-iOS */,
 				4CCACF95165692D4008E9D69 /* Frameworks */,
 				4CCACF93165692D4008E9D69 /* Products */,
 			);
@@ -140,33 +152,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4CCACF9C165692D4008E9D69 /* HueQuickStartApp-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4CCACFA5165692D5008E9D69 /* MoodAdjustAppDelegate.h */,
-				4CCACFA6165692D5008E9D69 /* MoodAdjustAppDelegate.m */,
-				F7ADC29D17FDAAA70038A1D6 /* MoodAdjustViewController.h */,
-				F7ADC29E17FDAAA70038A1D6 /* MoodAdjustViewController.m */,
-				F7ADC29F17FDAAA70038A1D6 /* MoodAdjustViewController.xib */,
-				4CCACF9D165692D4008E9D69 /* Supporting Files */,
-			);
-			path = "HueQuickStartApp-iOS";
-			sourceTree = "<group>";
-		};
-		4CCACF9D165692D4008E9D69 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4CCACF9E165692D4008E9D69 /* MoodAdjustApp-Info.plist */,
-				4CCACF9F165692D5008E9D69 /* InfoPlist.strings */,
-				4CCACFA2165692D5008E9D69 /* main.m */,
-				4CCACFA4165692D5008E9D69 /* MoodAdjustApp-Prefix.pch */,
-				4CCACFA8165692D5008E9D69 /* Default.png */,
-				4CCACFAA165692D5008E9D69 /* Default@2x.png */,
-				4CCACFAC165692D5008E9D69 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		4CCACFCA165693F4008E9D69 /* SDKWizard */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +175,14 @@
 			);
 			name = Resources;
 			path = resources;
+			sourceTree = "<group>";
+		};
+		CCC5563A1957028300FC2DCC /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5563B1957028300FC2DCC /* InfoPlist.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		F71523F118337FD50033689C /* Lumberjack */ = {
@@ -274,16 +267,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCACFA1165692D5008E9D69 /* InfoPlist.strings in Resources */,
-				4CCACFA9165692D5008E9D69 /* Default.png in Resources */,
-				4CCACFAB165692D5008E9D69 /* Default@2x.png in Resources */,
-				4CCACFAD165692D5008E9D69 /* Default-568h@2x.png in Resources */,
 				4CCACFDA165693F4008E9D69 /* PHBridgePushLinkViewController.xib in Resources */,
 				4CCACFDC165693F4008E9D69 /* PHBridgeSelectionViewController.xib in Resources */,
 				4CCACFDD165693F4008E9D69 /* press_smartbridge.png in Resources */,
+				CCC556451957028300FC2DCC /* Default@2x.png in Resources */,
+				CCC556441957028300FC2DCC /* Default.png in Resources */,
 				4CCACFDE165693F4008E9D69 /* press_smartbridge@2x.png in Resources */,
+				CCC556421957028300FC2DCC /* MoodAdjustViewController.xib in Resources */,
+				CCC556431957028300FC2DCC /* Default-568h@2x.png in Resources */,
 				4C1C84561681F010003EE085 /* PHLoadingViewController.xib in Resources */,
-				F7ADC2A117FDAAA70038A1D6 /* MoodAdjustViewController.xib in Resources */,
+				CCC556471957028300FC2DCC /* MoodAdjustApp-Info.plist in Resources */,
+				CCC556461957028300FC2DCC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,16 +290,16 @@
 			files = (
 				F715240418337FD50033689C /* DDLog.m in Sources */,
 				F715240218337FD50033689C /* DDASLLogger.m in Sources */,
-				4CCACFA3165692D5008E9D69 /* main.m in Sources */,
-				4CCACFA7165692D5008E9D69 /* MoodAdjustAppDelegate.m in Sources */,
 				F715240718337FD50033689C /* DispatchQueueLogFormatter.m in Sources */,
 				F715240518337FD50033689C /* DDTTYLogger.m in Sources */,
+				CCC5563F1957028300FC2DCC /* MoodAdjustViewController.m in Sources */,
 				4CCACFD9165693F4008E9D69 /* PHBridgePushLinkViewController.m in Sources */,
 				4CCACFDB165693F4008E9D69 /* PHBridgeSelectionViewController.m in Sources */,
 				F715240118337FD50033689C /* DDAbstractDatabaseLogger.m in Sources */,
 				4C1C84551681F010003EE085 /* PHLoadingViewController.m in Sources */,
 				F715240318337FD50033689C /* DDFileLogger.m in Sources */,
-				F7ADC2A017FDAAA70038A1D6 /* MoodAdjustViewController.m in Sources */,
+				CCC556411957028300FC2DCC /* MoodAdjustAppDelegate.m in Sources */,
+				CCC556401957028300FC2DCC /* main.m in Sources */,
 				F715240618337FD50033689C /* ContextFilterLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,10 +307,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CCACF9F165692D5008E9D69 /* InfoPlist.strings */ = {
+		CCC5563B1957028300FC2DCC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4CCACFA0165692D5008E9D69 /* en */,
+				CCC5563C1957028300FC2DCC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -392,8 +386,8 @@
 					../,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HueQuickStartApp-iOS/MoodAdjustApp-Prefix.pch";
-				INFOPLIST_FILE = "HueQuickStartApp-iOS/MoodAdjustApp-Info.plist";
+				GCC_PREFIX_HEADER = "MoodAdjustApp-Prefix.pch";
+				INFOPLIST_FILE = "MoodAdjustApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,8 +413,8 @@
 					../,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HueQuickStartApp-iOS/MoodAdjustApp-Prefix.pch";
-				INFOPLIST_FILE = "HueQuickStartApp-iOS/MoodAdjustApp-Info.plist";
+				GCC_PREFIX_HEADER = "MoodAdjustApp-Prefix.pch";
+				INFOPLIST_FILE = "MoodAdjustApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
